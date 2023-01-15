@@ -1,0 +1,20 @@
+{
+  "name": "action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest --watchAll",
+    "test:ci": "jest --ci --coverage --coverageReporters=html --coverageReporters=lcov"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  }
+}
