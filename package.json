@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index",
     "test": "jest --watchAll",
-    "ci": "jest --ci --coverage --coverageReporters=html --coverageReporters=lcov"
+    "test:ci": "jest --ci --coverage --coverageReporters=html --coverageReporters=lcov"
   },
   "author": "",
   "license": "ISC",
